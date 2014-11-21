@@ -1,4 +1,5 @@
 ActiveAdmin.register Images do
+  permit_params :caption
 
 
   # See permitted parameters documentation:
